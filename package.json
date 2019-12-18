@@ -1,0 +1,26 @@
+{
+  "name": "engineering-blogs",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <p>       <a href=\"https://triplebyte.com/a/Yz3KfYg/d\">         <b>Looking for a job?</b>         <br>         No resume needed. Just prove you can code.         <br>         <div>           <img src=\"https://user-images.githubusercontent.com/170270/66039619-9363c380-e53f-11e9-9b56-ae6e8ab336ba.png\" width=\"260\"  alt=\"Tripblebyte\">         </div>       </a> \t</p> </div>",
+  "main": "linkValidator.js",
+  "scripts": {
+    "validate": "node linkValidator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryantrappy/engineering-blogs.git"
+  },
+  "author": "Ryan Trapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryantrappy/engineering-blogs/issues"
+  },
+  "homepage": "https://github.com/ryantrappy/engineering-blogs#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "request-promise-native": "^1.0.8",
+    "xml2js": "^0.4.22"
+  }
+}
